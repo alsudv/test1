@@ -53,8 +53,8 @@ color: navy;
       } else if (x === 0 || y === 0) {
         resultElement.textContent = "Деление на ноль невозможно. X или Y не должны быть равны нулю.";
       } else {
-        const z = int(1 / (x * y));
-        resultElement.textContent = `Z = 1 / (${x} * ${y}) = ${z}`;
+        const z = 1 / (x * y);
+        resultElement.textContent = `Z = int(1 / (${x} * ${y}) = ${z})`;
       }
         if
     }
@@ -64,3 +64,4 @@ color: navy;
 </body>
 
 </html>
+
